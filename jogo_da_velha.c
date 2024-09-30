@@ -56,8 +56,7 @@ int main(void) {
 
 
             wprintf(L"Vez do jogador \"%c\". Digite a linha que deseja: ", vez);
-            if((scanf("%i", &linha) != 1) || (linha > 3) || (linha < 1)) { //If para jogada inválida do tipo 1 caso o jogador inserir uma resposta diferente de 0, 1 e 2
-                fflush(stdin);
+            if((scanf(" %i", &linha) != 1) || (linha > 3) || (linha < 1)) { //If para jogada inválida do tipo 1 caso o jogador inserir uma resposta diferente de 0, 1 e 2
                 wprintf(L"\nJogada inválida! Digite apenas números do 0 ao 2! Tente novamente. \n\n");
                 system("pause");
                 continue;
@@ -66,8 +65,7 @@ int main(void) {
 
 
             wprintf(L"\nDigite a coluna que deseja: ");
-            if((scanf("%i", &coluna) != 1) || (coluna > 3) || (coluna < 1)) { //Jogada inválida do tipo 1
-                fflush(stdin);
+            if((scanf(" %i", &coluna) != 1) || (coluna > 3) || (coluna < 1)) { //Jogada inválida do tipo 1
                 wprintf(L"\nJogada inválida! Digite apenas números do 0 ao 2! Tente novamente. \n\n");
                 system("pause");
                 continue;

@@ -1,5 +1,7 @@
 # ninja log v6
-4	107	7477644781354919	CMakeFiles/jogo_da_velha.dir/jogo_da_velha.c.obj	e94ee591ff5423ad
-109	220	7477644782402561	jogo_da_velha.exe	7ba844a4d67ccfb7
 4	262	7493578398894636	CMakeFiles/jogo_da_velha.dir/jogo_da_velha.c.obj	76c0d411e4b0c54d
 263	410	7493578401485568	jogo_da_velha.exe	54f5c54ec2f7286f
+13	106	7493619419485029	CMakeFiles/jogo_da_velha.dir/jogo_da_velha.c.obj	946a2c49494cd0bf
+106	221	7493619420417489	jogo_da_velha.exe	7ba844a4d67ccfb7
+18	90	7493620801796519	CMakeFiles/jogo_da_velha.dir/jogo_da_velha.c.obj	946a2c49494cd0bf
+91	163	7493620802522447	jogo_da_velha.exe	7ba844a4d67ccfb7
